@@ -30,11 +30,12 @@ a {
 }
 
 
-/* shrink images to fit narrow pages */
+/* shrink images to fit narrow pages while preserving aspect ratio */
 
 img {
     max-width: 100%;
     object-fit: contain;
+    height: auto;
 }
 
 footer {
