@@ -1,0 +1,42 @@
+body {
+    font: 21px Verdana, sans-serif;
+    text-align: center;
+    color: gray;
+    background: black;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+
+.link {
+    font-size: 16px;
+}
+
+a {
+    color: aquamarine;
+    text-decoration: underline;
+}
+
+
+/* shrink images to fit narrow pages */
+
+img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+footer {
+    text-align: right;
+}
